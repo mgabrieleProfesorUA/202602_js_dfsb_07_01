@@ -1,2 +1,17 @@
-###
+### MiddlewareVarios.js
 GET http://localhost:3000/
+
+### MiddlewareJSON.js
+POST http://localhost:3000/usuarios  HTTP/1.1
+content-type: application/json
+
+{
+    "codTipoDocumento": "01",
+    "numDocumento": "44444444",
+    "nombres": "Jose",
+    "apePaterno": "Jimenez",
+    "apeMaterno": "Vilchez",
+    "ubigeo": "120702",
+    "correo": "mgabriele@autonoma.edu.pe",
+    "domicilio": "Panamericana Sur S/N"
+}

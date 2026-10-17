@@ -1,0 +1,24 @@
+{
+  "name": "202602_js_dfsb_07_01",
+  "version": "1.0.0",
+  "description": "Ciclo 2026-02 Curso: LABORATORIO DE BACKEND INTELIGENTE Y APIS AUTÓNOMAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgabrieleProfesorUA/202602_js_dfsb_07_01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mgabrieleProfesorUA/202602_js_dfsb_07_01/issues"
+  },
+  "homepage": "https://github.com/mgabrieleProfesorUA/202602_js_dfsb_07_01#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

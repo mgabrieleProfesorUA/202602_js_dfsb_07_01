@@ -1,0 +1,37 @@
+### MiddlewareVarios.js
+GET http://localhost:3000/
+
+### MiddlewareJSON.js
+POST http://localhost:3000/usuarios  HTTP/1.1
+content-type: application/json
+
+{
+    "codTipoDocumento": "01",
+    "numDocumento": "44444444",
+    "nombres": "Jose",
+    "apePaterno": "Jimenez",
+    "apeMaterno": "Vilchez",
+    "ubigeo": "120702",
+    "correo": "mgabriele@autonoma.edu.pe",
+    "domicilio": "Panamericana Sur S/N"
+}
+
+### MiddlewareToken.js
+GET http://localhost:3000/admin  HTTP/1.1
+Authorization: Bearer token-secreto
+#Authorization: Bearer ABCEFGHF1872817287382637627328378
+
+### MiddlewareValidacion.js
+POST http://localhost:3000/registro  HTTP/1.1
+content-type: application/json
+
+{
+    "codTipoDocumento": "01",
+    "numDocumento": "44444444",
+    "nombres": "Jose",
+    "apePaterno": "Jimenez",
+    "apeMaterno": "Vilchez",
+    "ubigeo": "120702",
+    "email": "mgabriele",
+    "domicilio": "Panamericana Sur S/N"
+}
